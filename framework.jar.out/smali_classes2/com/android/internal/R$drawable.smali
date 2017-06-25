@@ -499,9 +499,9 @@
 
 .field public static final platlogo:I = 0x1080546
 
-.field public static final platlogo_cm:I = #android:drawable@platlogo_cm#t
+.field public static final platlogo_cm:I = 0x1080547
 
-.field public static final platlogo_m:I = 0x1080547
+.field public static final platlogo_m:I = 0x1080548
 
 .field public static final popup_bottom_bright:I = 0x1080552
 
