@@ -139,7 +139,10 @@ override_property += \
 # You should configure the property according to your device and your ID with replace the "Nexus-6P_Unofficial".
 override_property += \
     ro.flyme.romer=By-AhmedRahmy \
-    ro.product.model_romer=x510
+    ro.product.model_romer=x510 \
+    config.disable_atlas=true \
+    dalvik.vm.heapgrowthlimit=192m \
+    dalvik.vm.heapsize=512m
 
 ##############################################################################
 # The value decides which property you will remove from the build.prop.
