@@ -41,6 +41,10 @@ ro.build.description=cm_x510-userdebug 6.0.1 MOB31T 2e50b7e779 test-keys
 ro.build.fingerprint=INFINIX/cm_x510/x510:6.0.1/MOB31T/2e50b7e779:userdebug/test-keys
 ro.build.characteristics=default
 ro.cm.device=x510
+
+# For low ram device
+ro.config.low_ram=true
+
 # end build properties
 #
 # from device/infinix/x510/system.prop
